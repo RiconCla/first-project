@@ -305,6 +305,7 @@ ul {
   margin: 60px auto 40px;
   justify-content: space-between;
 }
+
 .footer__column {
   flex-direction: column;
   display: flex;
@@ -316,13 +317,13 @@ ul {
   justify-content:space-between;
 }
 
-
 .logo_place-footer {
   position: relative;
   width: 228px;
   height: 32px;
   background-image: url("../images/logo_place_footer.svg");
 }
+
 
 
 .footer__author {
@@ -337,7 +338,6 @@ ul {
   font-size: 18px;
   font-weight: 600;
   margin: 0;
-
 }
 
 .footer__column-links {

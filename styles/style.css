@@ -10,7 +10,7 @@
 }
 
 ul {
-  list-style-type:none;
+  list-style-type: none;
 }
 
 .header {
@@ -187,7 +187,7 @@ ul {
 .feynman {
   position: relative;
   height: 890px;
-  background-image: url("/images/feynman.png");
+  background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 867px 637px;
@@ -293,8 +293,8 @@ ul {
 }
 
 .footer {
+  display: flex;
   min-height: 350px;
-  border: 5px solid black;
   background-color: #1f1f1f;
 
 }
@@ -303,13 +303,11 @@ ul {
   display: flex;
   width: 90%;
   margin: 60px auto 40px;
-  border: 4px solid red;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 .footer__column {
   flex-direction: column;
   display: flex;
-  justify-content:space-between;
   color: white;
 }
 
@@ -320,9 +318,10 @@ ul {
 
 
 .logo_place-footer {
+  position: relative;
   width: 228px;
   height: 32px;
-  background-color: url("\images\logo_place_footer.svg");
+  background-image: url("../images/logo_place_footer.svg");
 }
 
 
@@ -347,14 +346,15 @@ ul {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  align-items: center;
+  list-style: none;
 }
 
 .footer__column-link {
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   color: white;
+  text-decoration: none;
+  align-items: center;
 }
 
 .footer__social-icon {

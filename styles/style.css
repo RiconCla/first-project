@@ -112,10 +112,6 @@ ul {
   margin: 0 0 30px;
 }
 
-.two-columns__paragraph:nth-last-of-type {
-  margin: 0;
-}
-
 .two-columns__main-text{
   margin: 0;
   width: 80%;
@@ -363,13 +359,4 @@ ul {
   height: 16px;
   width: 16px;
   margin-right: 10px;
-}
-
-
-.lola{
-  background-image: url("../images/logo_place_footer.svg");
-  color: wheat;
-  background-color: #1f1f1f;
-  height: 250px;
-  background-repeat: no-repeat;
 }

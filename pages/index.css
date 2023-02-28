@@ -1,6 +1,9 @@
 /*fonts*/
 @import url(../vendor/fonts/fonts.css);
 
+/* page */
+@import url(../blocks/page/page.css);
+
 /*vendor*/
 @import url(../vendor/normalize.css);
 
@@ -17,6 +20,42 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 
+/* rotation */
+@import url(../blocks/rotation/rotation.css);
+
+/* description */
+@import url(../blocks/description/description.css);
+
+/* techniques */
+@import url(../blocks/techniques/techniques.css);
+
+/* cards */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+
+/* video */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+
+/* oakley */
+@import url(../blocks/oakley/oakley.css);
+
+/* khan */
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__author/khan__author.css);
+@import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
+
 /*table*/
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
@@ -27,9 +66,6 @@
 @import url(../blocks/table/__text/_theme/table__text_theme-dark.css);
 @import url(../blocks/table/__new-line/table__new-line.css);
 @import url(../blocks/table/_theme/table_theme-dark.css);
-
-/* description */
-@import url(../blocks/description/description.css);
 
 /* two-columns */
 @import url(../blocks/two-columns/two-columns.css);
@@ -52,11 +88,20 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
 
+/* digits */
+@import url(../blocks/digits/digits.css);
+
 /* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
 
 /* triangle */
 @import url(../blocks/triangle/triangle.css);
+
+/* resources */
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__link/resource__link.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -69,18 +114,3 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
-
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}

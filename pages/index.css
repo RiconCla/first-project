@@ -8,9 +8,9 @@
 @import url(../vendor/normalize.css);
 
 /*logo*/
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__place/logo__place_footer.css);
-@import url(../blocks/logo/__place/logo__place_header.css);
+@import url(/first-project/blocks/logo/logo.css);
+@import url(/first-project/blocks/logo/__place/logo__place_footer.css);
+@import url(/first-project/blocks/logo/__place/logo__place_header.css);
 
 /*header*/
 @import url(../blocks/header/header.css);

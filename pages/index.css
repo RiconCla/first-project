@@ -93,6 +93,7 @@
 
 /* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/triangle.css);
 
 /* triangle */
 @import url(../blocks/triangle/triangle.css);

@@ -9,8 +9,8 @@
 
 /*logo*/
 @import url(/first-project/blocks/logo/logo.css);
-@import url(/first-project/blocks/logo/__place/logo__place_footer.css);
-@import url(/first-project/blocks/logo/__place/logo__place_header.css);
+@import url(/first-project/blocks/logo/_place/logo_place_footer.css);
+@import url(/first-project/blocks/logo/_place/logo_place_header.css);
 
 /*header*/
 @import url(../blocks/header/header.css);
